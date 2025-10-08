@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-main()
+int main()
 {
     printf("Bienvenue dans la calculatrice !\n");
     int operateur;
