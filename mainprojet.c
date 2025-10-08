@@ -25,7 +25,7 @@ int main()
             printf("Erreur : Division par zéro !\n");
             exit(1);
         }
-    } else if (operateur == '%%') {
+    } else if (operateur == '%') {
         printf("Résultat : %d\n", nb1 % nb2);
     } else {
         printf("Erreur : Opérateur inconnu !\n");
