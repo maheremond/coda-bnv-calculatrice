@@ -4,7 +4,7 @@ int main()
 {
     printf("Bienvenue dans la calculatrice !\n");
     int operateur;
-    printf("Choisissez un opérateur (+, -, *, /, %%) :\n");
+    printf("Choisissez un opérateur (+, -, , /, %%) :\n");
     scanf("%d", &operateur);
     int nb1;
     int nb2;
@@ -16,7 +16,7 @@ int main()
         printf("Résultat : %d\n", nb1 + nb2);
     } else if (operateur == '-') {
         printf("Résultat : %d\n", nb1 - nb2);
-    } else if (operateur == '*') {
+    } else if (operateur == '') {
         printf("Résultat : %d\n", nb1 * nb2);
     } else if (operateur == '/') {
         if (nb2 != 0) {
@@ -25,7 +25,7 @@ int main()
             printf("Erreur : Division par zéro !\n");
             exit(1);
         }
-    } else if (operateur == '%') {
+    } else if (operateur == '%%') {
         printf("Résultat : %d\n", nb1 % nb2);
     } else {
         printf("Erreur : Opérateur inconnu !\n");
